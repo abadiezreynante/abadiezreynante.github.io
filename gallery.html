@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Photo Gallery of Rey Abadiez" />
+    <meta name="author" content="nantoy, Rey Abadiez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Rey Photography</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SVTXQ55JKG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SVTXQ55JKG');
+  </script>
+
+  </head>
+
+  <body>
+    <a name="top"></a>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#top" class="nav__logo">Photo Gallery</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./#hobbies" class="nav__link active">Hobbies</a>
+            </li>
+            <li class="nav__item">
+              <a href="bqpodcast.html" class="nav__link">Podcasting</a>
+            </li>
+            <li class="nav__item">
+              <a href="pi4.html" class="nav__link">Programming</a>
+            </li>
+            <li class="nav__item">
+              <a href="./" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://linkedin.com/in/reynanteabadiez" target="_blank" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+
+      <!--===== MAIN =====-->
+    </header>
+    <div id="filter-container"></div>
+    <div id="gallery-container"></div>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Rey</p>
+      <div class="footer__social">
+        <a
+          href="https://linkedin.com/in/reynanteabadiez"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://www.bananaqpodcast.com/"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bx-podcast"></i
+        ></a>
+        <a href="https://accounting101.github.io" target="_blank" class="footer__icon"><i class="bx bxl-github"></i></a>
+       
+      </div>
+      <p>&#169; 2021 copyright. all rights reserved.</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="gallery-data.js"></script>
+    <script src="gallery.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
