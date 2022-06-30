@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
   
     images.forEach((element) => {
       const domElement = document.createElement('img');
-      domElement.src = `assets/gallery/${element.url}`;
+      domElement.src = `./${element.url}`;
       domElement.alt = element.title;
       domElement.dataset.category = element.category;
       domElement.classList.add('gallery-image');
