@@ -71,7 +71,7 @@ h2 {
 }
 
 .bq1 {
-  background: url(https://abadiez.com/assets/bnnq/bq1.png);
+  background: url(https://abadiez.com/bq1.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -79,7 +79,7 @@ h2 {
   background-position: center center;
 }
 .bq2 {
-  background-image: url(https://abadiez.com/assets/bnnq/bq2.png);
+  background-image: url(https://abadiez.com/bq2.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,7 +87,7 @@ h2 {
   background-position: center center;
 }
 .bq3 {
-  background-image: url(https://abadiez.com/assets/bnnq/bq5.png);
+  background-image: url(https://abadiez.com/bq5.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
