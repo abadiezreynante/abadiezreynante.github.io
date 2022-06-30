@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" CONTENT="Rey Hobbies" />
+  <meta name="keywords" content="Filipino, Culture, OFW, Jollibee, Pinoy, Podcast, Banana Q" />
+  <meta name="author" content="Reynante Abadiez CPA CFA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="normalize.css" />
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <title>Rey Hobbies</title>
+  <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SVTXQ55JKG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SVTXQ55JKG');
+  </script>
+
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Rey Hobbies</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="./#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+    <!--===== HOME =====-->
+
+    <section class="contact section" id="hobbies">
+      <h2 class="section-title">Hobbies</h2>
+
+      <div class="hobbies__container" onclick="">
+        <div class="col" onclick="">
+          <h2 class="hobby">PHOTOGRAPHY</h2>
+          <div class="hobbies__caption">
+            <p>
+              Rey captures moments from his travels using a Canon 5D Mark II paired with a nifty-fifty prime lens he got from a Japanese 2nd-hand shop in Ikebukuro.
+            </p>
+            <a href="gallery.html">
+              <button type="button">Know More</button></a>
+          </div>
+          <img src="hobbies1.png" alt="" />
+        </div>
+        <div class="col">
+          <h2 class="hobby">PODCASTING</h2>
+          <div class="hobbies__caption">
+            <p>
+              Rey co-hosts a podcast about Filipino culture with Dee, a friend he met in Singapore.
+            </p>
+            <a href="bqpodcast.html">
+              <button type="button">Know More</button>
+            </a>
+          </div>
+          <img src="hobbies2.png" alt="" />
+        </div>
+        <div class="col">
+          <h2 class="hobby">PROGRAMMING</h2>
+          <div class="hobbies__caption">
+            <p>
+              It all started with building a home-automation server using a Raspberry Pi 4.
+            </p>
+            <a href="pi4.html">
+              <button type="button">Know More</button>
+            </a>
+          </div>
+          <img src="hobbies3.png" alt="" />
+        </div>
+      </div>
+
+      </div>
+    </section>
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="main.js"></script>
+</body>
+
+
+</html>
